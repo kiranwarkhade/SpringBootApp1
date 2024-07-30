@@ -16,7 +16,7 @@ public class ContactController {
 
 	@GetMapping("/index")
     public String home() {
-         
+         System.out.println("New Changes");
     	return  "<!DOCTYPE html>\r\n"
     			+ "<html lang=\"en\">\r\n"
     			+ "<head>\r\n"
